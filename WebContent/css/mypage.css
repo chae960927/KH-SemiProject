@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+nav{
+  position: fixed;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+html{
+	font-size: 10px;
+}
+
+ul, li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.board_wrap{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    padding: 0 20px;
+}
+.board_title{
+	margin-bottom: 10px;
+}
+
+.board_title strong{
+	font-size: 3rem;
+}
+.bt_wrap{
+	text-align: center;
+	font-size: 0;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.bt_wrap button{
+	display: inline-block;
+	min-width: 80px;
+	margin-left: 10px;
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 2px;
+	font-size: 1.4rem;
+    
+}
+
+.bt_wrap button:first-child{
+	margin-left: 0;
+}
+
+.bt_wrap button.on{
+	background: #000;
+	color: #fff;
+}
+.tab_list{
+    margin-bottom: 30px;
+	text-align: left;
+	font-size: 0;
+	cursor : progress;   
+}
+.tab_list button{
+    display: inline-block;
+	min-width: 80px;
+	margin-left: 10px;
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 2px;
+	font-size: 1.4rem;
+	cursor : progress;
+}
+.tab_list button:first-child{
+	margin-left: 0;
+}
+.tab_list button.btn-list{
+	background: #000;
+	color: #fff;
+	cursor : progress;
+}
+
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+table {
+    border-spacing: 0;
+    border-collapse: initial;
+    border-top: 1px solid #222;
+    display: table;
+    border-collapse: separate; 
+    box-sizing: border-box;
+    text-indent: initial;
+    border-color: grey; 
+}
+ul, li {
+    list-style: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+#join_frm {
+    width: 590px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+#join_frm .join_table th {
+    width: 234px;
+    background: #f2f5f9;
+    color: #222;
+    font-size: 14px;
+    height: 70px;
+    border-bottom: 1px solid #dae0e9;
+    font-weight: normal;
+}
+#join_frm .join_table td {
+    padding: 7px 0 7px 20px;
+    color: #222;
+    border-bottom: 1px solid #dae0e9;
+    position: relative;
+    width: 826px;
+    font-size: 14px;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+#join_frm .join_table input {
+    width: 315px;
+    border: 1px solid #dae0e9;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+#join_frm .join_table .phone_cont span.line {
+    width: 6px;
+    height: 1px;
+    background: #222;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#join_frm .join_table .phone_cont {
+    width: 430px;
+    margin: 0 auto;
+    border: 1px solid #dae0e9;
+    margin-top: 10px;
+}
+#login {
+    width: 590px;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: -30%;
+}
+#login .email_cont {
+    width: 430px;
+    margin: 0 auto;
+    border: 1px solid #dae0e9;
+    margin-top: 10px;
+}
